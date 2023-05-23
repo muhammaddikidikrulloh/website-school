@@ -16,22 +16,22 @@
 
   <!-- Navbar Start -->
   <nav class="bg-navbar relative w-full py-2 h-max">
-    <div class="container mx-auto px-3 flex justify-between flex-wrap">
+    <div class="container mx-auto px-3 flex items-center justify-between flex-wrap md:flex-nowrap">
       <a href="#" class="py-2">
         <img src="src/assets/images/logo.png" width="44" alt="logo smpn 1 sukorame">
       </a>
-      <button class="block text-2xl" id="navbarToggler">
+      <button class="block text-2xl md:hidden" id="navbarToggler">
         <i class="fas fa-bars"></i>
       </button>
-      <div class="basis-full max-h-0 overflow-hidden transition-all duration-300 ease-out" id="show">
-        <ul>
-          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link active">home</a></li>
-          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link">about</a></li>
-          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link">guru</a></li>
-          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link">siswa</a></li>
-          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link">pendaftaran</a></li>
-          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link">lainnya</a></li>
-          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link">kontak</a></li>
+      <div class="basis-full max-h-0 overflow-hidden transition-all duration-300 ease-out md:overflow-visible md:basis-0" id="show">
+        <ul class="flex -mt-3">
+          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link md:py-0 md:px-2 active">home</a></li>
+          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link md:py-0 md:px-2">about</a></li>
+          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link md:py-0 md:px-2">guru</a></li>
+          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link md:py-0 md:px-2">siswa</a></li>
+          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link md:py-0 md:px-2">pendaftaran</a></li>
+          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link md:py-0 md:px-2">lainnya</a></li>
+          <li><a href="#" class="block capitalize text-navLink hover:text-white py-2 nav-link md:py-0 md:px-2">kontak</a></li>
         </ul>
       </div>
     </div>
